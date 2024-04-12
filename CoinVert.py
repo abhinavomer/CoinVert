@@ -22,6 +22,4 @@ def fetch_conversion_factor(src,trg):
     response=response.json()
     cf=response['conversion_rates'][trg]
     return cf
-if __name__=="__main__":
-    app.run(debug=True)
 
