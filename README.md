@@ -1,4 +1,4 @@
-# Currency Conversion Chatbot API
+# Currency Conversion Chatbot API :- CoinVert
 
 ## Overview
 
@@ -19,37 +19,14 @@ The Currency Conversion Chatbot API is a Flask-based web service that allows use
    - **target_currency**: The currency code of the target currency.
 2. **Receive Response**: Receive a JSON response containing the converted amount and fulfillment text, indicating the result of the conversion.
 
-## Example
-
-### Request:
-```json
-{
-  "queryResult": {
-    "parameters": {
-      "unit-currency": [{
-        "currency": "USD",
-        "amount": 100
-      }],
-      "currency-name": "EUR"
-    }
-  }
-}
-### Response:
-```json
-{
-  "fulfillmentText": "100 USD is 85.64 EUR"
-}
-### Technologies Used
+## Technologies Used
 Flask: A lightweight web framework for building web applications in Python.
 Requests: A Python library for making HTTP requests to external APIs.
 JSON: A lightweight data-interchange format for exchanging data between a server and a client.
 Dialogflow: It is used for training of the chatbot
-### External APIs
+
+## External APIs
 ExchangeRate-API: The chatbot utilizes the ExchangeRate-API to fetch real-time exchange rates and perform currency conversions. The API provides accurate and reliable data for various currency pairs.
+
 ### Deployment
-Deploy the Flask application to a web server or cloud platform to make the Currency Conversion Chatbot API accessible over the internet.
-Ensure proper error handling, security measures, and scalability considerations when deploying the API for production use.
-Future Enhancements
-Multi-Currency Support: Add support for converting between multiple source and target currencies in a single request.
-Historical Exchange Rates: Incorporate functionality to retrieve historical exchange rates and perform historical currency conversions.
-User Authentication: Implement user authentication mechanisms to track usage, manage quotas, and enforce access controls for the API.
+Live Link:- https://telegram.me/coinvert69_bot
