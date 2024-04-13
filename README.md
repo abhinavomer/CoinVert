@@ -1,4 +1,4 @@
-# Currency Conversion Chatbot API :- CoinVert
+# Currency Conversion Chatbot :- CoinVert
 
 ## Overview
 
