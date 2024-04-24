@@ -1,4 +1,7 @@
 # Currency Conversion Chatbot :- CoinVert
+### Deployment
+- Live Link:- https://telegram.me/coinvert69_bot
+- wait for some time as backend loading takes time.
 
 ## Overview
 
@@ -27,6 +30,3 @@ Dialogflow: It is used for training of the chatbot
 
 ## External APIs
 ExchangeRate-API: The chatbot utilizes the ExchangeRate-API to fetch real-time exchange rates and perform currency conversions. The API provides accurate and reliable data for various currency pairs.
-
-### Deployment
-Live Link:- https://telegram.me/coinvert69_bot
